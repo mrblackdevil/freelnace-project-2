@@ -9,6 +9,9 @@
 		padding: 0;
 		text-align: center;
 	}
+	.logo p {
+		width: 137%;
+	}
 	.contacts {
 		width: 70%;
 		margin-left: 0;
@@ -62,19 +65,19 @@
 		padding-right: 9px;
 	}
 	.form-block input[type=text] {
-		width: 27%;
+		width: 65%;
 	}
 	.form-block input[type=submit] {
-		width: 35%;
+		width: 30%;
 	}
-	.gift-from-company {
-		margin-bottom: -20%;
-	}
-	.gift-from-company p {
+	.company-advantages {
 		width: 120%;
-		padding: 0;
-		padding-bottom: 20%;
-		text-align: center;
+	}
+	.first-advs-block {
+		width: 19%;
+	}
+		.first-advs-block .percent-text::before {
+		right: 16.5%;
 	}
 	.video-content {
 		margin-top: 20%;
@@ -94,7 +97,7 @@
 		width: 95%;
 		margin: 0;
 	}
-		/*Products*/
+	/*Products*/
 	.products-logo {
 		width: 100%;
 		-webkit-background-size: 100%;
@@ -221,19 +224,21 @@
 		padding-right: 9px;
 	}
 	.form-block input[type=text] {
-		width: 27%;
+		width: 60%;
 	}
 	.form-block input[type=submit] {
 		width: 35%;
 	}
-	.gift-from-company {
-		margin-bottom: -20%;
+	.first-advs-block  {
+		width: 25%;
+		margin: 2% 0%;
 	}
-	.gift-from-company p {
-		width: 120%;
-		padding: 0;
-		padding-bottom: 20%;
-		text-align: center;
+	.company-advantages {
+		width: 100%;
+		margin: 5% 10%;
+	}
+	.first-advs-block .percent-text::before {
+		right: 19%;
 	}
 	.wrapper-box {
 		width: 63%;
@@ -334,6 +339,12 @@
 		padding: 0;
 		text-align: center;
 	}
+		.logo p  {
+		width: 120%;
+		margin-left: -10%;
+		font-size: 14px;
+		text-align: center;
+	}
 	.contacts {
 		width: 80%;
 		text-align: center;
@@ -383,22 +394,19 @@
 		padding-right: 9px;
 	}
 	.form-block input[type=text] {
-		width: 27%;
+		width: 60%;
 	}
 	.form-block input[type=submit] {
 		width: 35%;
+		font-size: 13px;
 	}
-	.gift-from-company {
-		margin-bottom: -20%;
+	.first-advs-block  {
+		width: 40%;
+		margin: 2% 5%;
 	}
-	.gift-from-company p {
-		width: 120%;
-		padding: 0;
-		padding-bottom: 20%;
-		text-align: center;
-	}
-	.wrapper-box {
-		width: 63%;
+	.first-advs-block .percent-text::before {
+		margin-left: -65px;
+		left: 17%;
 	}
 	.video-content {
 		margin-top: 20%;
@@ -418,6 +426,7 @@
 		width: 95%;
 		margin: 0;
 	}
+
 	/*Products*/
 	.products-logo {
 		width: 100%;
@@ -558,20 +567,6 @@
 	.form-block input[type=submit] {
 		width: 90%;
 	}
-	.gift-from-company {
-		width: 90%;
-		margin-bottom: -20%;
-	}
-	.gift-from-company p {
-		width: 120%;
-		padding: 0;
-		margin-bottom: 20%;
-		text-align: center;
-	}
-	.wrapper-box {
-		width: 60%;
-		margin: 0 auto;
-	}
 	.video-content {
 		margin-top: 20%;
 		margin-bottom: 10%;
@@ -582,12 +577,12 @@
 		margin: 5% -7%;
 	}
 	.first-advs-block {
-		width: 50%;
-		margin: 0;
+		width: 40%;
+		margin-left: 5%;
 		margin-top: 20px;
 	}
-	.advs-title  {
-		
+	.first-advs-block .percent-text::before {
+		left: 12%;
 	}
 	/*Footer*/
 	.footer-content {
