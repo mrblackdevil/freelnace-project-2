@@ -1,0 +1,718 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	/*Header*/
+	.logo {
+		width: 30%;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+	.contacts {
+		width: 70%;
+		margin-left: 0;
+		text-align: center;
+	}
+	.feedback-email,
+	.feedback-call {
+		width: 49%;
+		text-align: right;
+		margin: 0;
+		padding: 0;
+	}
+	.feedback-email {
+		margin-right: 2%;
+	}
+	.feedback-title,
+	.backcall-title {
+		text-align: right;
+	}
+	/*Main*/ 
+	.content-block { 
+		width: 115%;
+		padding: 0;
+		margin: 0;	
+	}
+	.content-block h2,h3 {
+		display: block;
+		width: 107%;
+		padding: 0;
+		line-height: 40px;
+		font-size: 40px;
+	}
+	.content-block h3 {
+		width: 110%;
+		padding: 0;
+		margin: 0;
+		line-height: 40px;
+		font-size: 37px;
+		font-family: "GothaProReg",sans-serif;
+	}
+	.content-block p {
+		width: 105%;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+	.form-box {
+		width: 110%;
+		margin: 0 7%;
+		padding: 0;
+		padding-right: 9px;
+	}
+	.form-block input[type=text] {
+		width: 27%;
+	}
+	.form-block input[type=submit] {
+		width: 35%;
+	}
+	.gift-from-company {
+		margin-bottom: -20%;
+	}
+	.gift-from-company p {
+		width: 120%;
+		padding: 0;
+		padding-bottom: 20%;
+		text-align: center;
+	}
+	.video-content {
+		margin-top: 20%;
+		margin-bottom: 10%;
+	}
+	/*Footer*/
+	.footer-content {
+		width: 120%;
+		margin:  auto;
+		text-align: center;
+	}
+	.footer-content b {
+		padding-right: 50px;
+	}
+	.footer-content a {
+		display: block;
+		width: 95%;
+		margin: 0;
+	}
+		/*Products*/
+	.products-logo {
+		width: 100%;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+	}
+	.products-logo h1 {
+		font-size: 30px;
+		margin-top: 20%;
+		margin-left: 5%;
+	}
+	.products-logo p {
+		font-size: 18px;
+		margin-top: 0%;
+	}
+	.down-nav-button {
+		margin: 5% 0;
+		width: 100%;
+	}
+	.video-box-title p,
+	.products-box-title p {
+		margin-top: 10%;
+		margin-bottom: 10%;
+		font-size: 27px;
+		line-height: 25px;
+	}
+	.products-box-title p b {
+		font-size: 17px;
+	}
+	.products-item {
+		width: 30%;
+		height: 300px;
+		margin: 0 1%;
+	}
+	.products-item h5 {
+		font-size: 19px;
+	}
+	.products-item .price-button {
+		width: 80%;
+		margin: 25% auto;
+		font-size: 15px;
+	}
+	.products-item img {
+		width: 50%;
+	}
+	.video-content {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.video-box-title p {
+		margin-top: 10%;
+		line-height: 32px;
+	}
+	.video-content iframe {
+		width: 100%;
+	}
+	.form-block .subscribe {
+		width: 70%;
+	}
+	.form-block .subscribe input{
+		width: 58%;
+		margin-left: 1.5%;
+	}
+	.form-block .subscribe input[type=submit] {
+		width: 38%;
+		margin: 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	/*Header*/
+	.logo {
+		width: 50%;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+	.contacts {
+		width: 50%;
+		text-align: center;
+	}
+	.feedback-email,
+	.feedback-call {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.feedback-title,
+	.backcall-title {
+		text-align: center;
+	}
+	/*Main*/ 
+	.content-block { 
+		width: 115%;
+		padding: 0;
+		margin: 0;	
+	}
+	.content-block h2,h3 {
+		display: block;
+		width: 107%;
+		padding: 0;
+		line-height: 40px;
+		font-size: 40px;
+	}
+	.content-block h3 {
+		width: 110%;
+		padding: 0;
+		margin: 0;
+		line-height: 40px;
+		font-size: 37px;
+		font-family: "GothaProReg",sans-serif;
+	}
+	.content-block p {
+		width: 105%;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+	.form-box {
+		width: 110%;
+		margin: 0 7%;
+		padding: 0;
+		padding-right: 9px;
+	}
+	.form-block input[type=text] {
+		width: 27%;
+	}
+	.form-block input[type=submit] {
+		width: 35%;
+	}
+	.gift-from-company {
+		margin-bottom: -20%;
+	}
+	.gift-from-company p {
+		width: 120%;
+		padding: 0;
+		padding-bottom: 20%;
+		text-align: center;
+	}
+	.wrapper-box {
+		width: 63%;
+	}
+	.video-content {
+		margin-top: 20%;
+		margin-bottom: 10%;
+	}
+	/*Footer*/
+	.footer-content {
+		width: 120%;
+		margin:  auto;
+		text-align: center;
+	}
+	.footer-content b {
+		padding-right: 50px;
+	}
+	.footer-content a {
+		display: block;
+		width: 95%;
+		margin: 0;
+	}
+	/*Products*/
+	.products-logo {
+		width: 100%;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+	}
+	.products-logo h1 {
+		font-size: 30px;
+		margin-top: 20%;
+		margin-left: 5%;
+	}
+	.products-logo p {
+		font-size: 18px;
+		margin-top: 0%;
+	}
+	.down-nav-button {
+		margin: 10% 0;
+		width: 100%;
+	}
+	.video-box-title p,
+	.products-box-title p {
+		margin-top: 10%;
+		margin-bottom: 10%;
+		font-size: 27px;
+		line-height: 25px;
+	}
+	.products-box-title p b {
+		font-size: 17px;
+	}
+	.products-item {
+		width: 30%;
+		height: 300px;
+		margin: 0 1%;
+	}
+	.products-item h5 {
+		font-size: 19px;
+	}
+	.products-item .price-button {
+		width: 80%;
+		margin: 25% auto;
+		font-size: 15px;
+	}
+	.products-item img {
+		width: 50%;
+	}
+	.video-content {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.video-box-title p {
+		margin-top: 10%;
+		line-height: 32px;
+	}
+	.video-content iframe {
+		width: 100%;
+	}
+	.form-block .subscribe input{
+		width: 58%;
+		margin-left: 1.5%;
+	}
+	.form-block .subscribe input[type=submit] {
+		width: 38%;
+		margin: 0;
+	}
+	.form-block .subscribe {
+		width: 97%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*Header*/
+	.logo {
+		width: 120%;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+	.contacts {
+		width: 80%;
+		text-align: center;
+	}
+	.feedback-email,
+	.feedback-call {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.feedback-title,
+	.backcall-title {
+		text-align: center;
+	}
+	/*Main*/ 
+	.content-block { 
+		width: 115%;
+		padding: 0;
+		margin: 0;	
+	}
+	.content-block h2,h3 {
+		display: block;
+		width: 107%;
+		padding: 0;
+		line-height: 40px;
+		font-size: 40px;
+	}
+	.content-block h3 {
+		width: 110%;
+		padding: 0;
+		margin: 0;
+		line-height: 40px;
+		font-size: 37px;
+		font-family: "GothaProReg",sans-serif;
+	}
+	.content-block p {
+		width: 105%;
+		margin-top: 50px;
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+	.form-box {
+		width: 110%;
+		margin: 0 7%;
+		padding: 0;
+		padding-right: 9px;
+	}
+	.form-block input[type=text] {
+		width: 27%;
+	}
+	.form-block input[type=submit] {
+		width: 35%;
+	}
+	.gift-from-company {
+		margin-bottom: -20%;
+	}
+	.gift-from-company p {
+		width: 120%;
+		padding: 0;
+		padding-bottom: 20%;
+		text-align: center;
+	}
+	.wrapper-box {
+		width: 63%;
+	}
+	.video-content {
+		margin-top: 20%;
+		margin-bottom: 10%;
+	}
+	/*Footer*/
+	.footer-content {
+		width: 120%;
+		margin:  auto;
+		text-align: center;
+	}
+	.footer-content b {
+		padding-right: 50px;
+	}
+	.footer-content a {
+		display: block;
+		width: 95%;
+		margin: 0;
+	}
+	/*Products*/
+	.products-logo {
+		width: 100%;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+	}
+	.products-logo h1 {
+		margin-top: 20%;
+		margin-left: 5%;
+	}
+	.products-logo p {
+		font-size: 20px;
+	}
+	.down-nav-button {
+		margin: 10% 0;
+		width: 100%;
+	}
+	.products-box-title p b {
+		font-size: 15px;
+	}
+	.products-item {
+		width: 30%;
+		height: 260px;
+		margin: auto 1%;
+	}
+	.products-item h5 {
+		font-size: 15px;
+	}
+	.products-item .price-button {
+		width: 102%;
+		margin: 20% -1%;
+		font-size: 12px;
+	}
+	.video-box-title p,
+	.products-box-title p {
+		margin-top: 5%;
+		margin-bottom: 5%;
+		font-size: 20px;
+		line-height: 20px;
+	}
+	.video-box-title p {
+		line-height: 30px;
+	}
+	.video-content iframe {
+		width: 100%;
+	}
+	.form-block  {
+		width: 94%;
+	}
+	.form-block .subscribe input{
+		width: 60%;
+		margin-left: 1.5%;
+	}
+	.form-block .subscribe input[type=submit] {
+		width: 34%;
+		margin: 0;
+	}
+	.video-content {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	body {
+		background: url(../img/bgmob.png) no-repeat center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	/*Header*/
+	.logo {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+	.logo p  {
+		width: 120%;
+		margin-left: -10%;
+		font-size: 14px;
+		text-align: center;
+	}
+	.contacts {
+		width: 100%;
+		text-align: center;
+	}
+	.feedback-email,
+	.feedback-call {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.feedback-title,
+	.backcall-title {
+		text-align: center;
+	}
+	/*Main*/ 
+	.content-block { 
+		width: 100%;
+		padding: 0;
+		margin: 0;	
+	}
+	.content-block h2,h3 {
+		display: block;
+		width: 105%;
+		padding: 0;
+		line-height: 35px;
+		font-size: 29px;
+	}
+	.content-block h3 {
+		width: 110%;
+		padding: 0;
+		margin: 0;
+		line-height: 25px;
+		font-size: 17px;
+		font-family: "GothaProReg",sans-serif;
+	}
+	.content-block p {
+		width: 110%;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		padding: 0;
+		font-size: 20px;
+	}
+	.form-box {
+		width: 97%;
+		height: auto;
+		margin: 0 7%;
+		padding: 0;
+	}
+	.form-block input[type=text] {
+		width: 90%;
+	}
+	.form-block input[type=submit] {
+		width: 90%;
+	}
+	.gift-from-company {
+		width: 90%;
+		margin-bottom: -20%;
+	}
+	.gift-from-company p {
+		width: 120%;
+		padding: 0;
+		margin-bottom: 20%;
+		text-align: center;
+	}
+	.wrapper-box {
+		width: 60%;
+		margin: 0 auto;
+	}
+	.video-content {
+		margin-top: 20%;
+		margin-bottom: 10%;
+	}
+	/*advs-block*/
+	.company-advantages {
+		width: 120%;
+		margin: 5% -7%;
+	}
+	.first-advs-block {
+		width: 50%;
+		margin: 0;
+		margin-top: 20px;
+	}
+	.advs-title  {
+		
+	}
+	/*Footer*/
+	.footer-content {
+		width: 110%;
+		margin:  auto;
+		text-align: center;
+	}
+	.footer-content b {
+		padding: 0;
+	}
+	.footer-content a {
+		display: block;
+		width: 95%;
+		margin: 0;
+	}
+	/*Products*/
+	.products-logo {
+		width: 100%;
+		-webkit-background-size: 100%;
+		background-size: 100%;
+	}
+	.products-logo h1 {
+		font-size: 30px;
+		margin-top: 20%;
+		margin-left: 5%;
+	}
+	.products-logo p {
+		font-size: 18px;
+		margin-top: 40%;
+	}
+	.down-nav-button {
+		margin: 0;
+		width: 100%;
+	}
+	.video-box-title p,
+	.products-box-title p {
+		margin-top: 25%;
+		margin-bottom: 20%;
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.products-box-title p b {
+		font-size: 15px;
+	}
+	.products-item {
+		width: 100%;
+		height: auto;
+		margin: 10% 0;
+	}
+	.products-item h5 {
+		font-size: 25px;
+	}
+	.products-item .price-button {
+		width: 70%;
+		margin: 5% auto;
+	}
+	.products-item img {
+		width: 50%;
+	}
+	.video-content iframe {
+		width: 100%;
+	}
+	.form-block .subscribe input{
+		width: 90%;
+		margin-left: 1.5%;
+	}
+	.form-block .subscribe input[type=submit] {
+		width: 90%;
+		margin: 0;
+	}
+	.video-content {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+/* 1.25 dpr */
+@media
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi){
+	/* Retina-specific stuff here */
+}
+
+/* 1.3 dpr */
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2), /* для Safari, Safari IOS */
+only screen and (min-resolution: 192dpi), /* для IE 10, IE 11, Opera Mini */
+only screen and (min-resolution: 2dppx) { /* для нормальных браузеров */
+	body {
+		background: url(../img/bgretina.png) no-repeat center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		/* Retina-specific stuff here */
+	}
+}
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
