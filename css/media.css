@@ -3,26 +3,29 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	/*Header*/
+	.header-content {
+		margin-left: 1%;
+	}
 	.logo {
-		width: 30%;
-		margin: 0 auto;
+		width: 20%;
+		margin: 0 0;
 		padding: 0;
 		text-align: center;
 	}
 	.logo p {
-		width: 137%;
+		width: 175%;
+		margin: 0;
 	}
 	.contacts {
-		width: 70%;
-		margin-left: 0;
+		width: 50%;
+		margin: 0;
+		padding: 0;
 		text-align: center;
 	}
 	.feedback-email,
 	.feedback-call {
 		width: 49%;
 		text-align: right;
-		margin: 0;
-		padding: 0;
 	}
 	.feedback-email {
 		margin-right: 2%;
@@ -33,19 +36,19 @@
 	}
 	/*Main*/ 
 	.content-block { 
-		width: 115%;
+		width: 120%;
 		padding: 0;
-		margin: 0;	
+		margin: 10% 0;	
 	}
 	.content-block h2,h3 {
 		display: block;
-		width: 107%;
+		width: 100%;
 		padding: 0;
 		line-height: 40px;
 		font-size: 40px;
 	}
 	.content-block h3 {
-		width: 110%;
+		width: 100%;
 		padding: 0;
 		margin: 0;
 		line-height: 40px;
@@ -53,14 +56,14 @@
 		font-family: "GothaProReg",sans-serif;
 	}
 	.content-block p {
-		width: 105%;
+		width: 70%;
 		margin-top: 50px;
 		margin-bottom: 30px;
 		font-size: 20px;
 	}
 	.form-box {
-		width: 110%;
-		margin: 0 7%;
+		width: 95%;
+		margin: 0 15%;
 		padding: 0;
 		padding-right: 9px;
 	}
@@ -76,7 +79,7 @@
 	.first-advs-block {
 		width: 19%;
 	}
-		.first-advs-block .percent-text::before {
+	.first-advs-block .percent-text::before {
 		right: 16.5%;
 	}
 	.video-content {
@@ -85,7 +88,7 @@
 	}
 	/*Footer*/
 	.footer-content {
-		width: 120%;
+		width: 100%;
 		margin:  auto;
 		text-align: center;
 	}
@@ -169,14 +172,22 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	/*Header*/
+	.header-content {
+		margin-left: 0;
+	}
 	.logo {
-		width: 50%;
-		margin: 0 auto;
+		width: 40%;
+		margin: 0 7%;
 		padding: 0;
 		text-align: center;
 	}
+	.logo p {
+		width: 108%;
+		margin: 0;
+	}
 	.contacts {
-		width: 50%;
+		width: 40%;
+		padding-left: 5%;
 		text-align: center;
 	}
 	.feedback-email,
@@ -192,34 +203,35 @@
 	}
 	/*Main*/ 
 	.content-block { 
-		width: 115%;
+		width: 100%;
 		padding: 0;
 		margin: 0;	
 	}
 	.content-block h2,h3 {
 		display: block;
-		width: 107%;
+		width: 101%;
 		padding: 0;
 		line-height: 40px;
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.content-block h3 {
-		width: 110%;
+		width: 100%;
+		margin-left: 0;
 		padding: 0;
-		margin: 0;
 		line-height: 40px;
-		font-size: 37px;
+		font-size: 30px;
 		font-family: "GothaProReg",sans-serif;
 	}
 	.content-block p {
-		width: 105%;
+		width: 100%;
+		margin-left: 0;
 		margin-top: 50px;
 		margin-bottom: 30px;
 		font-size: 20px;
 	}
 	.form-box {
-		width: 110%;
-		margin: 0 7%;
+		width: 90%;
+		margin: 0 auto;
 		padding: 0;
 		padding-right: 9px;
 	}
@@ -235,10 +247,10 @@
 	}
 	.company-advantages {
 		width: 100%;
-		margin: 5% 10%;
+		margin: 8% 0%;
 	}
 	.first-advs-block .percent-text::before {
-		right: 19%;
+		right: 28%;
 	}
 	.wrapper-box {
 		width: 63%;
@@ -249,8 +261,8 @@
 	}
 	/*Footer*/
 	.footer-content {
-		width: 120%;
-		margin:  auto;
+		width: 100%;
+		margin-left:  3%;
 		text-align: center;
 	}
 	.footer-content b {
@@ -333,25 +345,32 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	/*Header*/
+	.header-content {
+		margin-left: 0%;
+	}
 	.logo {
-		width: 120%;
-		margin: 0 auto;
+		width: 50%;
+		margin: 0 0;
 		padding: 0;
 		text-align: center;
 	}
-		.logo p  {
-		width: 120%;
-		margin-left: -10%;
-		font-size: 14px;
+	.logo  h1 {
+		font-size: 35px;
+	}
+	.logo p  {
+		width: 110%;
+		margin-top: 0;
+		margin-left: 0;
+		font-size: 12px;
 		text-align: center;
 	}
 	.contacts {
-		width: 80%;
+		width: 50%;
 		text-align: center;
 	}
 	.feedback-email,
 	.feedback-call {
-		width: 100%;
+		width: 110%;
 		text-align: center;
 		margin: 0;
 		padding: 0;
@@ -362,19 +381,19 @@
 	}
 	/*Main*/ 
 	.content-block { 
-		width: 115%;
+		width: 100%;
 		padding: 0;
 		margin: 0;	
 	}
 	.content-block h2,h3 {
 		display: block;
-		width: 107%;
+		width: 100%;
 		padding: 0;
 		line-height: 40px;
 		font-size: 40px;
 	}
 	.content-block h3 {
-		width: 110%;
+		width: 100%;
 		padding: 0;
 		margin: 0;
 		line-height: 40px;
@@ -382,31 +401,30 @@
 		font-family: "GothaProReg",sans-serif;
 	}
 	.content-block p {
-		width: 105%;
+		width: 100%;
 		margin-top: 50px;
 		margin-bottom: 30px;
 		font-size: 20px;
 	}
 	.form-box {
-		width: 110%;
+		width: 100%;
 		margin: 0 7%;
 		padding: 0;
 		padding-right: 9px;
 	}
 	.form-block input[type=text] {
-		width: 60%;
+		width: 55%;
 	}
 	.form-block input[type=submit] {
-		width: 35%;
-		font-size: 13px;
+		width: 40%;
+		font-size: 14px;
 	}
 	.first-advs-block  {
-		width: 40%;
-		margin: 2% 5%;
+		width: 41%;
+		margin: 2% 2%;
 	}
 	.first-advs-block .percent-text::before {
-		margin-left: -65px;
-		left: 17%;
+		left: -5%;
 	}
 	.video-content {
 		margin-top: 20%;
@@ -414,7 +432,7 @@
 	}
 	/*Footer*/
 	.footer-content {
-		width: 120%;
+		width: 100%;
 		margin:  auto;
 		text-align: center;
 	}
@@ -506,10 +524,16 @@
 		padding: 0;
 		text-align: center;
 	}
+	.header-content {
+		margin-left: 0;
+	}
+	.logo h1 {
+		font-size: 35px;
+	}
 	.logo p  {
 		width: 120%;
 		margin-left: -10%;
-		font-size: 14px;
+		font-size: 12px;
 		text-align: center;
 	}
 	.contacts {
@@ -535,13 +559,13 @@
 	}
 	.content-block h2,h3 {
 		display: block;
-		width: 105%;
+		width: 100%;
 		padding: 0;
 		line-height: 35px;
 		font-size: 29px;
 	}
 	.content-block h3 {
-		width: 110%;
+		width: 100%;
 		padding: 0;
 		margin: 0;
 		line-height: 25px;
@@ -549,7 +573,7 @@
 		font-family: "GothaProReg",sans-serif;
 	}
 	.content-block p {
-		width: 110%;
+		width: 100%;
 		margin-top: 50px;
 		margin-bottom: 20px;
 		padding: 0;
@@ -582,7 +606,7 @@
 		margin-top: 20px;
 	}
 	.first-advs-block .percent-text::before {
-		left: 12%;
+		left: 8%;
 	}
 	/*Footer*/
 	.footer-content {
