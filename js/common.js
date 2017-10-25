@@ -24,21 +24,6 @@ $(document).ready(function() {
 	});
 		//Аякс отправка форм на обратный звонок
 	//Документация: http://api.jquery.com/jquery.ajax/
-	$("#subscribe-form").submit(function() {
-		$.ajax({
-			type: "POST",
-			url: "mail.php",
-			data: $("#subscribe-form").serialize()
-		}).done(function() {
-			alert("Спасибо за заявку!");
-			setTimeout(function() {
-				$.fancybox.close();
-			}, 1000);
-		});
-		return false;
-	});
-		//Аякс отправка форм на обратный звонок
-	//Документация: http://api.jquery.com/jquery.ajax/
 	// Вставить полную ссылку на products.html
 	$("#get-pdf-doc").submit(function() {
 		$.ajax({
@@ -50,7 +35,7 @@ $(document).ready(function() {
 			setTimeout(function() {
 				$.fancybox.close();
 			}, 1000);
-			window.location("../products.html"); 
+			window.location("http://www.automalin.by/products.html"); 
 		});
 		return false;
 	});
